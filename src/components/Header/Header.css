@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
+    padding-left: 120px;
     padding-right: 140px;
 }
 
@@ -12,8 +12,15 @@
     color: #FFFFFF;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 36px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border-radius: 6px;
 }
 .header a:hover{
-    color: orange;
+    background-color: #ff9900;
+}
+
+.active{
+    color: white;
+    background-color: #ff9900;
 }
